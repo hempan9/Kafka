@@ -1,0 +1,24 @@
+spring:
+#  jpa:
+#  hibernate:
+#    ddl-auto: update
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/airways
+#    username: root
+#    password: rootuser
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    show-sql: true
+server:
+  port: 9001
+
+#  kafka:
+#    consumer:
+#      bootstrap-servers: localhost:9092
+#      group-id: group_id
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+##    producer:
+##      bootstrap-servers: localhost:9092
+##      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+##      value-serializer: org.apache.kafka.common.serialization.StringSerializer
